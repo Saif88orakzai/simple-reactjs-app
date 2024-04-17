@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Saif88orakzai/simple-reactjs-app.git'
+                git 'https://github.com/Saif88orakzai/simple-reactjs-app'
             }
         }
         stage('Dependency Installation') {
